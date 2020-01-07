@@ -23,10 +23,4 @@ public class MultipleOrContainsCheckerTest {
         Assert.assertTrue(multipleOrContainsChecker.isMultipleOrContains(34));
     }
 
-    @Test
-    public void testShouldReturnFalseWhenValueDoesNotContainN() {
-        MultipleOrContainsChecker multipleOrContainsChecker = new MultipleOrContainsChecker(4);
-        Assert.assertFalse(multipleOrContainsChecker.isMultipleOrContains(30));
-    }
-
 }
